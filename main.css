@@ -1,0 +1,147 @@
+a {
+    color: #5cb86c;
+} 
+
+a:hover {
+    color: purple;
+    text-decoration: none;
+} 
+
+a:visited {
+    color: darkblue;
+} 
+
+.slides {
+  width: 100%;
+  height: 100%;
+    margin: 0 auto 40px;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+}
+
+.slide h2 {
+  margin: 25% 0 30px;
+  text-align: center;
+  font-size: 70px;
+  color: #fff;
+}
+
+.slide p {
+  margin: 0 20% 40px;
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+}
+
+.slide .button {
+  color: #fff;
+  border-color: #fff;
+  opacity: .6;
+}
+
+.slide .button:hover {
+  opacity: 1;
+}
+
+.slide img {
+  width: 60%;
+  margin: 100px 50% 100px 10%;
+}
+
+.slide-color {
+  background: #a2d9ab;
+}
+ 
+
+.grid-full {
+  width: 100%;
+  float: left;
+}
+
+.grid-half {
+  width: 50%;
+  float: left;
+}
+.grid-third {
+  width: 27.33333%;
+  margin: 0 3%;
+  float: left;
+}
+
+.slick-dots {
+  bottom: 20px;    
+}
+
+.slick-dots li button:before {
+ font-size: 16px;   
+}
+
+.green {
+  background-color: #5cb86c;
+  height: .2em;
+  width: 100%;
+}
+
+.list {
+   margin: auto;
+   width: 50%;
+}
+
+.bottom {
+ background-color: #f4f4f4;
+ padding-bottom: 1.5em
+ margin: 1em; 
+}
+
+.footer {
+ padding: 1.2em;
+ background-color: lightgrey; 
+}
+
+@media (max-width: 700px) {
+  .tagline {
+    display: none;
+  }
+  .logo {
+    display: none;
+    margin: 20px auto 0;
+  }
+  .grid-half {
+    width: 80%;
+    margin: 0 10%;
+  }
+  
+  .row {
+    padding: 0 10px;
+  }
+  nav {
+    width: 100%;
+  }
+  nav a {
+    transition: 0s;
+    width: 33.333333%;
+    float: left;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  .description {
+    display: none;
+  }
+  .slide img {
+    width: 80%;
+    margin: 100px 10%;
+  }
+  .slick-dots {
+    top: 20px;
+  } 
+
+  h4 {
+    font-size: 20px;
+  }
+}
+
+ 
